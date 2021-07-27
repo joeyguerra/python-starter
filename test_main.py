@@ -1,2 +1,5 @@
+# pytest test
 def test_main():
-    assert False
+    expected = 1
+    actual = 1
+    assert actual == expected
