@@ -65,3 +65,10 @@ export PIPENV_VENV_IN_PROJECT='enabled'
 pipenv runt test
 ```
 
+### Installing Dependencies
+
+Install packages via `pipenv`. The `PIPENV_VENV_IN_PROJECT` set above will tell `pipenv` to install packages in the `.venv` folder at the root level of this codebase. This encourages reproducible builds.
+
+```sh
+pipenv install <package>
+```
